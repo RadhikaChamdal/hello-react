@@ -58,7 +58,65 @@ function App() {
       </a>
     </Card.Content>
   </Card>
+  <Card>
+    <Image src= '/assets/Batman .jpg' wrapped ui={false} />
+    <Card.Content>
+      <Card.Header>Batman</Card.Header>
+      <Card.Meta>
+        <span className='date'>Joined in 2367</span>
+      </Card.Meta>
+      <Card.Description>
+        Batman owns a mansion and a batmobile.
+      </Card.Description>
+    </Card.Content>
+    <Card.Content extra>
+      <a>
+        <Icon name='user' />
+        Superhero
+      </a>
+    </Card.Content>
+
+    <Card>
+    <Image src= '/assets/Batman .jpg' wrapped ui={false} />
+    <Card.Content>
+      <Card.Header>Batman</Card.Header>
+      <Card.Meta>
+        <span className='date'>Joined in 2367</span>
+      </Card.Meta>
+      <Card.Description>
+        Batman owns a mansion and a batmobile.
+      </Card.Description>
+    </Card.Content>
+    <Card.Content extra>
+      <a>
+        <Icon name='user' />
+        Superhero
+      </a>
+    </Card.Content>
+    </Card>
+
+    <Card>
+    <Image src= '/assets/Thor.png' wrapped ui={false} />
+    <Card.Content>
+      <Card.Header>Thor</Card.Header>
+      <Card.Meta>
+        <span className='date'>Joined in 1967</span>
+      </Card.Meta>
+      <Card.Description>
+        Asgardian
+      </Card.Description>
+    </Card.Content>
+    <Card.Content extra>
+      <a>
+        <Icon name='user' />
+        Superhero
+      </a>
+    </Card.Content>
+    </Card>
+  
+  
   </div>
+  
   );
 }
 
