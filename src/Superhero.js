@@ -9,10 +9,6 @@ function Superhero(props) {
         <Attributes title = "Weaknesses:" value = {props.name}/>
         <Attributes title = ":" value = {props.name}/>
 
-        
-        
-        
-        
         <p><b>Superhero:</b>{props.name}</p>
         <p><b>Strength:</b>{props.strength}</p>
         <p><b>Weaknesses:</b>{props.weaknesses}</p>
