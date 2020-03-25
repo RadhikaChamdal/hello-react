@@ -1,26 +1,24 @@
 import React from 'react';
+import Superhero from './Superhero'
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <h1>Superhero</h1>
+      <Superhero name = "Spiderman"
+      strength = "Shooting Webs"
+      weaknesses = "Women"
+      enemy = "Mysterio"/>
+      <br></br>
+      <Superhero name = "Batman"
+      strength = "Strength"
+      weaknesses = "Trauma"
+      enemy = "Joker"/>
+  </div>
   );
 }
+
 
 export default App;
