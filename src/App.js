@@ -5,6 +5,7 @@ import './App.css';
 import { Icon, Label, Image, Card} from 'semantic-ui-react'
 
 function App() {
+  console.log('radhika is alright uno')
   return (
     <div className="App">
       <h1>Superhero</h1>
