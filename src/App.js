@@ -75,6 +75,7 @@ function App() {
         Superhero
       </a>
     </Card.Content>
+    </Card>
 
     <Card>
     <Image src= '/assets/Batman .jpg' wrapped ui={false} />
@@ -94,7 +95,6 @@ function App() {
       </a>
     </Card.Content>
     </Card>
-
     <Card>
     <Image src= '/assets/Thor.png' wrapped ui={false} />
     <Card.Content>
