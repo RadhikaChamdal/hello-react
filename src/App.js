@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <h1>Superhero</h1>
-      <Superhero name = "Spiderman"
+      {/* <Superhero name = "Spiderman"
       strength = "Shooting Webs"
       weaknesses = "Women"
       enemy = "Mysterio"/>
@@ -19,9 +19,9 @@ function App() {
       enemy = "Joker"/>
        <Label>
     <Icon name='mail' /> 23
-  </Label>
+  </Label> */}
   <Card>
-    <Image src= '../assets/spiderman.png'wrapped ui={false} />
+    <Image src= '/assets/spiderman .png' wrapped ui={false} />
     <Card.Content>
       <Card.Header>Spiderman</Card.Header>
       <Card.Meta>
@@ -40,7 +40,24 @@ function App() {
     </Card.Content>
   </Card>
  
-  
+  <Card>
+    <Image src= '/assets/Batman .jpg' wrapped ui={false} />
+    <Card.Content>
+      <Card.Header>Batman</Card.Header>
+      <Card.Meta>
+        <span className='date'>Joined in 2367</span>
+      </Card.Meta>
+      <Card.Description>
+        Batman owns a mansion and a batmobile.
+      </Card.Description>
+    </Card.Content>
+    <Card.Content extra>
+      <a>
+        <Icon name='user' />
+        Superhero
+      </a>
+    </Card.Content>
+  </Card>
   </div>
   );
 }
