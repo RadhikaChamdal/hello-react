@@ -5,9 +5,9 @@ function Superhero(props) {
     return(
       <div>
         <Attributes title = "Superhero:" value = {props.name}/>
-        <Attributes title = "Strength:" value = {props.name}/>
-        <Attributes title = "Weaknesses:" value = {props.name}/>
-        <Attributes title = ":" value = {props.name}/>
+        <Attributes title = "Strength:" value = {props.strength}/>
+        <Attributes title = "Weaknesses:" value = {props.weaknesses}/>
+        <Attributes title = ":" value = {props.value}/>
 
         <p><b>Superhero:</b>{props.name}</p>
         <p><b>Strength:</b>{props.strength}</p>
