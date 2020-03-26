@@ -1,11 +1,18 @@
 .App {
   text-align: center;
 }
+
+body{
+  border: 15px;
+}
+
 h1 {
   color:black;
   text-align: center;
   font-family:Verdana;
   font-size: 40px;
+  
+
 }
 h2 {
   color: black;
@@ -26,8 +33,14 @@ img {
   width: 50%;
   height: auto;
 }
+img-fade{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 ul.facts{
   list-style-type: square;
+  
 
 }
 @media (prefers-reduced-motion: no-preference) {

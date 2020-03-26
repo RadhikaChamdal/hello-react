@@ -4,6 +4,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Icon, Label, Image, Card,Reveal} from 'semantic-ui-react'
 
+<body>
+
 function App() {
   return (
     <div className="App">
@@ -19,18 +21,19 @@ function App() {
 );
 }
 
-
 function Character(props) {
   return (
     <div>
-      <Reveal animated='rotate'>
+      <div class = "img-fade"> 
+      <Reveal animated='fade'>
       <Reveal.Content visible>
-      <Image size='small' src='/assets/Black Box.png' />
+      <Image size='small' src='/assets/black.jpg' />
       </Reveal.Content>
       <Reveal.Content hidden>
       <Image size='small' src={props.imagePath} />
       </Reveal.Content>
       </Reveal>
+      </div>
 
 
       <div class ="card-facts">
@@ -51,6 +54,8 @@ function Character(props) {
         </div>
   </div>
   )
+  )
 }
+</body>
 
 export default App;
