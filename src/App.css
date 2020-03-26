@@ -14,7 +14,10 @@ h2 {
   font-size: 20px;
 
 }
-
+.cards-facts{
+  text-align: center;
+  font-family: Verdana;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -22,6 +25,10 @@ h2 {
 img {
   width: 50%;
   height: auto;
+}
+ul.facts{
+  list-style-type: square;
+
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

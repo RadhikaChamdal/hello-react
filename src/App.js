@@ -10,29 +10,47 @@ function App() {
       <h1>Guess Who</h1>
       <h2> Your Character is.....</h2>
 
-  <Reveal animated='rotate'>
-    <Reveal.Content visible>
-      <Image circular size='small' src='/assets/Black Box.png' />
-    </Reveal.Content>
-    <Reveal.Content hidden>
-      <Image size='small' src='/assets/Drake .jpeg' />
-    </Reveal.Content>
-  </Reveal>
-
-
-  
-      <card> </card>
-      <Card.Header>Artist/Card.Header>
-      <Card.Meta>
-        <span className='33 years old'></span>
-      </Card.Meta>
-      <Card.Description>
-        <p>Albums include: Take Care, Scorpion, What a time to be alive</p>
-        Born in Canada
-      </Card.Description>
-      </Card.Header>
+    <Character imagePath='/assets/Drake .jpeg' />
+    <Character imagePath='/assets/spiderman .png' />
+    <Character />
+      
 
  </div>
 );
 }
+
+
+function Character(props) {
+  return (
+    <div>
+      <Reveal animated='rotate'>
+      <Reveal.Content visible>
+      <Image size='small' src='/assets/Black Box.png' />
+      </Reveal.Content>
+      <Reveal.Content hidden>
+      <Image size='small' src={props.imagePath} />
+      </Reveal.Content>
+      </Reveal>
+
+
+      <div class ="card-facts">
+      <Card.Header>Facts about the Artist</Card.Header>
+      <Card.Meta>
+        <span className='cards'></span>
+      </Card.Meta>
+      <Card.Description>
+        
+        <ul class='facts'>
+        <li>Born in Canada</li>
+        <br></br>
+        <li>Known as ChampagnePapi</li>
+        <br></br>
+        <li>Albums include: Take Care, Scorpion, What a time to be alive</li>
+        </ul>
+        </Card.Description>
+        </div>
+  </div>
+  )
+}
+
 export default App;
