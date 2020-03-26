@@ -2,124 +2,37 @@ import React from 'react';
 import Superhero from './Superhero'
 import logo from './logo.svg';
 import './App.css';
-import { Icon, Label, Image, Card} from 'semantic-ui-react'
+import { Icon, Label, Image, Card,Reveal} from 'semantic-ui-react'
 
 function App() {
-  console.log('radhika is alright uno')
   return (
     <div className="App">
-      <h1>Superhero</h1>
-      {/* <Superhero name = "Spiderman"
-      strength = "Shooting Webs"
-      weaknesses = "Women"
-      enemy = "Mysterio"/>
-      <br></br>
-      <Superhero name = "Batman"
-      strength = "Strength"
-      weaknesses = "Trauma"
-      enemy = "Joker"/>
-       <Label>
-    <Icon name='mail' /> 23
-  </Label> */}
-  <Card>
-    <Image src= '/assets/spiderman .png' wrapped ui={false} />
-    <Card.Content>
-      <Card.Header>Spiderman</Card.Header>
-      <Card.Meta>
-        <span className='date'>Joined in 1962</span>
-      </Card.Meta>
-      <Card.Description>
-        SpiderMan lives in queens.
-        He loves red heads 
-      </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <a>
-        <Icon name='user' />
-        Superhero
-      </a>
-    </Card.Content>
-  </Card>
- 
-  <Card>
-    <Image src= '/assets/Batman .jpg' wrapped ui={false} />
-    <Card.Content>
-      <Card.Header>Batman</Card.Header>
-      <Card.Meta>
-        <span className='date'>Joined in 2367</span>
-      </Card.Meta>
-      <Card.Description>
-        Batman owns a mansion and a batmobile.
-      </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <a>
-        <Icon name='user' />
-        Superhero
-      </a>
-    </Card.Content>
-  </Card>
-  <Card>
-    <Image src= '/assets/Batman .jpg' wrapped ui={false} />
-    <Card.Content>
-      <Card.Header>Batman</Card.Header>
-      <Card.Meta>
-        <span className='date'>Joined in 2367</span>
-      </Card.Meta>
-      <Card.Description>
-        Batman owns a mansion and a batmobile.
-      </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <a>
-        <Icon name='user' />
-        Superhero
-      </a>
-    </Card.Content>
-    </Card>
+      <h1>Guess Who</h1>
+      <h2> Your Character is.....</h2>
 
-    <Card>
-    <Image src= '/assets/Batman .jpg' wrapped ui={false} />
-    <Card.Content>
-      <Card.Header>Batman</Card.Header>
+  <Reveal animated='rotate'>
+    <Reveal.Content visible>
+      <Image circular size='small' src='/assets/Black Box.png' />
+    </Reveal.Content>
+    <Reveal.Content hidden>
+      <Image size='small' src='/assets/Drake .jpeg' />
+    </Reveal.Content>
+  </Reveal>
+
+
+  
+      <card> </card>
+      <Card.Header>Artist/Card.Header>
       <Card.Meta>
-        <span className='date'>Joined in 2367</span>
+        <span className='33 years old'></span>
       </Card.Meta>
       <Card.Description>
-        Batman owns a mansion and a batmobile.
+        <p>Albums include: Take Care, Scorpion, What a time to be alive</p>
+        Born in Canada
       </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <a>
-        <Icon name='user' />
-        Superhero
-      </a>
-    </Card.Content>
-    </Card>
-    <Card>
-    <Image src= '/assets/Thor.png' wrapped ui={false} />
-    <Card.Content>
-      <Card.Header>Thor</Card.Header>
-      <Card.Meta>
-        <span className='date'>Joined in 1967</span>
-      </Card.Meta>
-      <Card.Description>
-        Asgardian
-      </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <a>
-        <Icon name='user' />
-        Superhero
-      </a>
-    </Card.Content>
-    </Card>
-  
-  
-  </div>
-  
-  );
+      </Card.Header>
+
+ </div>
+);
 }
-
-
 export default App;
