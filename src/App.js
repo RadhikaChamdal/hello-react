@@ -4,27 +4,28 @@ import logo from './logo.svg';
 import './App.css';
 import { Icon, Label, Image, Card,Reveal} from 'semantic-ui-react'
 
-<body>
-
 function App() {
-  return (
+  return(
+  
     <div className="App">
       <h1>Guess Who</h1>
       <h2> Your Character is.....</h2>
-
+      <div className = 'whole'>
     <Character imagePath='/assets/Drake .jpeg' />
-    <Character imagePath='/assets/spiderman .png' />
-    <Character />
+    <Character imagePath='/assets/chrisbrown.jpg' />
+    <Character imagePath='/assets/future.jpg' />
+    </div>
       
 
  </div>
-);
+  )
 }
 
 function Character(props) {
-  return (
-    <div>
-      <div class = "img-fade"> 
+  return(
+   
+    <div className = 'character'>
+      <div className = "img-fade"> 
       <Reveal animated='fade'>
       <Reveal.Content visible>
       <Image size='small' src='/assets/black.jpg' />
@@ -52,10 +53,11 @@ function Character(props) {
         </ul>
         </Card.Description>
         </div>
-  </div>
-  )
+        <div class ="card-facts">
+        </div>
+        
+        </div>
   )
 }
-</body>
 
 export default App;
