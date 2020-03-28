@@ -42,10 +42,10 @@ function App() {
           albums = 'Rodeo, Astroworld, BITTSM'
         />
          <Character 
-          imagePath='/assets/travis.jpg' 
-          born = 'Houston, Texas' 
-          nickname = 'La Flame' 
-          albums = 'Rodeo, Astroworld, BITTSM'
+          imagePath='/assets/gunna.jpg' 
+          born = 'Georgia' 
+          nickname = 'Wunna' 
+          albums = 'Drip or Drown, Drip too hard'
         />
       </div>
       <h3>Hover over the space to reveal the artist</h3>
