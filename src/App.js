@@ -2,61 +2,48 @@ import React from 'react';
 import Superhero from './Superhero'
 import logo from './logo.svg';
 import './App.css';
-import { Icon, Label, Image, Card,Reveal} from 'semantic-ui-react'
+import Character from './components/Character.js'
 
 function App() {
   return(
   
     <div className="App">
-      <h1>Guess Who</h1>
-      <h2> Your Character is.....</h2>
+      <h1>Who Am I?</h1>
+      <h2> Take a guess if you want</h2>
       <div className = 'whole'>
-    <Character imagePath='/assets/Drake .jpeg' />
-    <Character imagePath='/assets/chrisbrown.jpg' />
-    <Character imagePath='/assets/future.jpg' />
-    </div>
-      
-
- </div>
-  )
-}
-
-function Character(props) {
-  return(
-   
-    <div className = 'character'>
-      <div className = "img-fade"> 
-      <Reveal animated='fade'>
-      <Reveal.Content visible>
-      <Image size='small' src='/assets/black.jpg' />
-      </Reveal.Content>
-      <Reveal.Content hidden>
-      <Image size='small' src={props.imagePath} />
-      </Reveal.Content>
-      </Reveal>
+        <Character 
+          imagePath='/assets/Drake .jpeg' 
+          born = 'Canada' 
+          nickname = 'ChampagnePapi' 
+          albums = 'Take Care, Scorpion, What a time to be alive'
+        />
+        <Character 
+          imagePath='/assets/future.jpg' 
+          born = 'Atlanta, Georgia' 
+          nickname = 'Hndrxx' 
+          albums = 'DS2, Super Slimey, EVOL'
+        />
+        <Character 
+          imagePath='/assets/chris.jpg' 
+          born = 'Virginia, US' 
+          nickname = 'Breezy' 
+          albums = 'X, Indigo, F.A.M.E., Royalty, Exclusive'
+        />
+        <Character 
+          imagePath='/assets/party.jpg' 
+          born = 'Ontario, Canada' 
+          nickname = 'PND' 
+          albums = 'Partymobile, PartyNextDoor 3, PartyNextDoor 3'
+        />
+        <Character 
+          imagePath='/assets/travis.jpg' 
+          born = 'Houston, Texas' 
+          nickname = 'La Flame' 
+          albums = 'Rodeo, Astroworld, BITTSM'
+        />
       </div>
-
-
-      <div class ="card-facts">
-      <Card.Header>Facts about the Artist</Card.Header>
-      <Card.Meta>
-        <span className='cards'></span>
-      </Card.Meta>
-      <Card.Description>
-        
-        <ul class='facts'>
-        <li>Born in Canada</li>
-        <br></br>
-        <li>Known as ChampagnePapi</li>
-        <br></br>
-        <li>Albums include: Take Care, Scorpion, What a time to be alive</li>
-        </ul>
-        </Card.Description>
-        </div>
-        <div class ="card-facts">
-        </div>
-        
-        </div>
+      <h3>Hover over the space to reveal the artist</h3>
+ </div>
   )
 }
 

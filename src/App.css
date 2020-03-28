@@ -1,24 +1,34 @@
 .App {
   text-align: center;
-  max-width: 1200px;
-  margin: 60px auto;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  color: white;
+  background:black;
+  height: 100vh;
 }
 
 
 h1 {
-  color:black;
+  color:white;
   text-align: center;
-  font-family:Verdana;
+  font-family: 'Helvetica';
   font-size: 40px;
+}
   
 
-}
-h2 {
-  color: black;
-  text-align: center;
-  font-family: Verdana;
-  font-size: 20px;
 
+h2 {
+  color: rgb(236, 9, 236);
+  text-align: center;
+  font-family: 'Helvetica';
+  font-size: 30px;
+
+}
+h3 {
+  color: rgb(236, 9, 236);
+  text-align: left;
+  font-family: 'Helvetica'
+ 
 }
 .cards-facts{
   text-align: center;
@@ -44,17 +54,19 @@ h2 {
 }
 
 .whole{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 50px;
-  margin: 10px auto;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid grey;
+  min-height: 50vh;
 }
 
 .character{
-  border: 1px solid black;
+  border: .1px solid rgb(155, 155, 155);
   width: 150px;
   height: 350px;
-  text-align: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
