@@ -41,6 +41,12 @@ function App() {
           nickname = 'La Flame' 
           albums = 'Rodeo, Astroworld, BITTSM'
         />
+         <Character 
+          imagePath='/assets/travis.jpg' 
+          born = 'Houston, Texas' 
+          nickname = 'La Flame' 
+          albums = 'Rodeo, Astroworld, BITTSM'
+        />
       </div>
       <h3>Hover over the space to reveal the artist</h3>
  </div>
