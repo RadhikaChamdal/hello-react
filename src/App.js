@@ -42,7 +42,7 @@ function App() {
           albums = 'Rodeo, Astroworld, BITTSM'
         />
          <Character 
-          imagePath='/assets/gunna.jpg' 
+          imagePath='/assets/gunna .jpg' 
           born = 'Georgia' 
           nickname = 'Wunna' 
           albums = 'Drip or Drown, Drip too hard'
