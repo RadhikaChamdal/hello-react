@@ -57,6 +57,13 @@ function App() {
           albums = 'Changes, Purpose, Strong'
         />
       />
+      <Character 
+          imagePath='/assets/justin.jpg' 
+          born = 'Canada' 
+          nickname = 'JB' 
+          albums = 'Changes, Purpose, Strong'
+        />
+      />
       </div>
      
  </div>
