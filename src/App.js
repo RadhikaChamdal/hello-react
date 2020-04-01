@@ -1,8 +1,8 @@
 import React from 'react';
-import Superhero from './Superhero'
 import logo from './logo.svg';
 import './App.css';
-import Character from './components/Character.js'
+import Character from './components/Character.js';
+
 
 function App() {
   return(
@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <h1>Who Am I?</h1>
       <h2> Take a guess if you want</h2>
+      <h3>Hover over the space to reveal the artist</h3>
       <div className = 'whole'>
         <Character 
           imagePath='/assets/Drake .jpeg' 
@@ -48,7 +49,16 @@ function App() {
           albums = 'Drip or Drown, Drip too hard'
         />
       </div>
-      <h3>Hover over the space to reveal the artist</h3>
+      <div className = "pop">
+      <Character 
+          imagePath='/assets/Drake .jpeg' 
+          born = 'Canada' 
+          nickname = 'JB' 
+          albums = 'Changes, Purpose, Strong'
+        />
+      />
+      </div>
+     
  </div>
   )
 }

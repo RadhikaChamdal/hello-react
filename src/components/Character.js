@@ -1,5 +1,5 @@
 import React from "react";
-import Info from './Info.js'
+import Info from './Info.js';
 
 
 function Character(props) {
