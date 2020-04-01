@@ -51,7 +51,7 @@ function App() {
       </div>
       <div className = "pop">
       <Character 
-          imagePath='/assets/Drake .jpeg' 
+          imagePath='/assets/justin.jpg' 
           born = 'Canada' 
           nickname = 'JB' 
           albums = 'Changes, Purpose, Strong'
