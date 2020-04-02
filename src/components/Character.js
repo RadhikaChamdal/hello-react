@@ -8,4 +8,4 @@ function Character(props) {
     )
   }
   
-  export default Character
+  export default Character 

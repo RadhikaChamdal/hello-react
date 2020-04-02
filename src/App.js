@@ -56,14 +56,32 @@ function App() {
           nickname = 'JB' 
           albums = 'Changes, Purpose, Strong'
         />
-      />
+        
       <Character 
           imagePath='/assets/weeknd.jpg' 
           born = 'Toronto, Canada' 
           nickname = '' 
           albums = 'After Hours, Beauty Behind the Madness'
         />
+        
+        <Character 
+          imagePath='/assets/billie.jpg' 
+          born = 'Los Angeles, California' 
+          nickname = '' 
+          albums = 'When We All Fall Asleep, Where Do We Go?, '
+        />
+
+        <Character 
+          imagePath='/assets/dua.jpg' 
+          born = 'London, England' 
+          nickname = '' 
+          albums = 'Future Nostalgia, Nostalgia deluxe'
+        />
+
+
+
       </div>
+
      
  </div>
   )
