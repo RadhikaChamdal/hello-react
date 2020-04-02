@@ -77,7 +77,18 @@ function App() {
           nickname = '' 
           albums = 'Future Nostalgia, Nostalgia deluxe'
         />
-
+        <Character 
+          imagePath='/assets/post malone.jpg' 
+          born = 'New York, U.S.' 
+          nickname = 'posty' 
+          albums = "Hollywood's Bleeding, Stoney"
+        />
+         <Character 
+          imagePath='/assets/ed.jpg' 
+          born = 'New York, U.S.' 
+          nickname = 'posty' 
+          albums = "Hollywood's Bleeding, Stoney"
+        />
 
 
       </div>
