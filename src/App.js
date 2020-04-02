@@ -3,6 +3,21 @@ import logo from './logo.svg';
 import './App.css';
 import Character from './components/Character.js';
 
+function Counter () {
+  const[count, setCount] = React.useState(0);
+    
+    return(
+      <div>
+      <p>Points: {count}</p>
+      <button onClick = {()=>{setCount;{count+1}}}>
+      return count
+      </button>
+  
+      
+      
+      
+      </div>
+    )
 
 function App() {
   return(
@@ -93,9 +108,13 @@ function App() {
 
       </div>
 
+   
+    
+    }
      
  </div>
   )
+  }
 }
 
-export default App;
+export default App
