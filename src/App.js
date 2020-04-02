@@ -58,12 +58,11 @@ function App() {
         />
       />
       <Character 
-          imagePath='/assets/justin.jpg' 
-          born = 'Canada' 
-          nickname = 'JB' 
-          albums = 'Changes, Purpose, Strong'
+          imagePath='/assets/weeknd.jpg' 
+          born = 'Toronto, Canada' 
+          nickname = '' 
+          albums = 'After Hours, Beauty Behind the Madness'
         />
-      />
       </div>
      
  </div>
