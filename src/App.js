@@ -10,13 +10,13 @@ function Counter () {
       <div>
       <p>Points: {count}</p>
       <button onClick = {()=>{setCount;{count+1}}}>
-      return count
+      Correct!
       </button>
-  
-      
-      
-      
-      </div>
+
+      <button onClick ={()=>{setCount;{count-1}}}>
+      Incorrect
+      </button>
+    </div>
     )
 
 function App() {
@@ -111,8 +111,7 @@ function App() {
    
     
     }
-     
- </div>
+  </div>
   )
   }
 }
