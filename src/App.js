@@ -6,18 +6,19 @@ import Character from './components/Character.js';
 function Counter () {
   const[count, setCount] = React.useState(0);
     
-    return(
-      <div>
-      <p>Points: {count}</p>
-      <button onClick = {()=>{setCount;{count+1}}}>
-      Correct!
-      </button>
+  return(
+    <div>
+    <p>Points: {count}</p>
+    <button onClick = {()=>{setCount(count+1)}}>
+    Correct!
+    </button>
 
-      <button onClick ={()=>{setCount;{count-1}}}>
-      Incorrect
-      </button>
-    </div>
-    )
+    <button onClick ={()=>{setCount(count-1)}}>
+    Incorrect!
+    </button>
+  </div>
+  )
+}
 
 function App() {
   return(
@@ -26,6 +27,7 @@ function App() {
       <h1>Who Am I?</h1>
       <h2> Take a guess if you want</h2>
       <h3>Hover over the space to reveal the artist</h3>
+      <Counter />
       <div className = 'whole'>
         <Character 
           imagePath='/assets/Drake .jpeg' 
@@ -113,7 +115,6 @@ function App() {
     }
   </div>
   )
-  }
 }
 
 export default App
