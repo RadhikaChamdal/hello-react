@@ -3,12 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import Character from './components/Character.js';
 
+
 function Counter () {
   const[count, setCount] = React.useState(0);
-    
+  
   return(
-    <div>
-    <p>Points: {count}</p>
+    <div className = "button">
+    <p><b>Your Points:</b> {count}</p>
     <button onClick = {()=>{setCount(count+1)}}>
     Correct!
     </button>
@@ -17,7 +18,7 @@ function Counter () {
     Incorrect!
     </button>
   </div>
-  )
+  )  
 }
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
     <div className="App">
       <h1>Who Am I?</h1>
       <h2> Take a guess if you want</h2>
-      <h3>Hover over the space to reveal the artist</h3>
+      <h2>Hover over the space to reveal the artist</h2>
       <Counter />
       <div className = 'whole'>
         <Character 
@@ -66,6 +67,8 @@ function App() {
           albums = 'Drip or Drown, Drip too hard'
         />
       </div>
+      <br/>
+      <br/>
       <div className = "pop">
       <Character 
           imagePath='/assets/justin.jpg' 
