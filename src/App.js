@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Character from './components/Character.js';
+import { SearchResults } from 'semantic-ui-react';
 
 
 function Counter () {
@@ -20,6 +21,12 @@ function Counter () {
   </div>
   )  
 }
+axios
+.get ("https://dog.ceo/api/breeds/image/random")
+.then(response => {
+  Results(response.data)
+}) 
+
 
 function App() {
   return(
@@ -105,9 +112,9 @@ function App() {
         />
          <Character 
           imagePath='/assets/ed.jpg' 
-          born = 'New York, U.S.' 
-          nickname = 'posty' 
-          albums = "Hollywood's Bleeding, Stoney"
+          born = 'Suffolk, England' 
+          nickname = 'teddy' 
+          albums = "divide, x"
         />
 
 
