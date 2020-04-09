@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Character from './components/Character.js';
 import { SearchResults } from 'semantic-ui-react';
-import axios from 'axios'
+
 
 
 function Counter () {
@@ -22,6 +22,12 @@ function Counter () {
   </div>
   )  
 }
+
+<button>Click here to play more music trivia!</button>
+
+
+
+
 function App() {
   return(
   
