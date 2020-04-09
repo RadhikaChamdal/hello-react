@@ -22,13 +22,6 @@ function Counter () {
   </div>
   )  
 }
-axios
-.get ("https://dog.ceo/api/breeds/image/random")
-.then(response => {
-  Results(response.data)
-}) 
-
-
 function App() {
   return(
   
@@ -117,15 +110,10 @@ function App() {
           nickname = 'teddy' 
           albums = "divide, x"
         />
-
-
-      </div>
-
-   
-    
-    }
-  </div>
+         </div>
+         </div>
   )
 }
 
+      
 export default App
