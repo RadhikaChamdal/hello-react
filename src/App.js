@@ -24,17 +24,17 @@ function Counter () {
   )  
 }
 
-function pages (){
+function App(){
   return (
     <div>
     <Router>
-      <Trivia page = '/trivia' />
+      <Trivia path= '/trivia' />
     </Router>
   </div>
   );
 }
 
-function App() {
+function pages() {
   return(
       <div className="whole">
       <h1>Who Am I?</h1>
