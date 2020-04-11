@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Character from './components/Character.js';
 import { SearchResults } from 'semantic-ui-react';
+import Trivia from './components/Trivia'
 
 
 function Counter () {
@@ -21,22 +22,17 @@ function Counter () {
   </div>
   )  
 }
-axios
-.get ("https://dog.ceo/api/breeds/image/random")
-.then(response => {
-  Results(response.data)
-}) 
 
 
 function App() {
   return(
   
-    <div className="App">
+    <div className="whole">
       <h1>Who Am I?</h1>
       <h2> Take a guess if you want</h2>
       <h2>Hover over the space to reveal the artist</h2>
       <Counter />
-      <div className = 'whole'>
+      <div className = 'rnb'>
         <Character 
           imagePath='/assets/Drake .jpeg' 
           born = 'Canada' 

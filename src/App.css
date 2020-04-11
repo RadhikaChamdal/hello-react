@@ -1,4 +1,4 @@
-.App {
+.whole{
   text-align: center;
   /* max-width: 1200px; */
   margin: 0 auto;
@@ -62,7 +62,7 @@ h3 {
   margin-right: 20px;
 }
 
-.whole{
+.rnb{
   display: flex;
   padding: 10px;
   flex-direction: row;
