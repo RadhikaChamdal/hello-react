@@ -3,8 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Character from './components/Character.js';
 import { SearchResults } from 'semantic-ui-react';
-import axios from 'axios'
-export default App
+
 
 
 function Counter () {
@@ -22,38 +21,7 @@ function Counter () {
     </button>
   </div>
   ) 
-function MusicApi() {
-  const [questionString, setQuestionString] = React.useState();
-  const [AnswerState, setAnswerState] = React.useState();
-  console.log(questionString);
-  React.useEffect(() => {
-    const promise = axios.get(
-      "https://opentdb.com/api.php?amount=8&category=12&difficulty=medium&type=boolean"
-    );
-    promise.then(response => {
-      console.log("object", response.data.results[4]);
-      console.log("ques", response.data.results[4].question);
-      setQuestionString(response.data.results[4].question);
-    });
-    promise.then(response => {
-      console.log("answer:", response.data.results[4].correct_answer);
-      setAnswerState(response.data.results[4].correct_answer);
-    });
-  }, []);
-
-  if (questionString) {
-    return (
-      <>
-        <p>{questionString}</p>
-        <p>{AnswerState}</p>
-      </>
-    );
-  } else {
-    return <p> Loading question </p>;
-  }
-         
-}      
-}
+  
 
 function App() {
   return(
@@ -63,6 +31,7 @@ function App() {
       <h2> Take a guess if you want</h2>
       <h2>Hover over the space to reveal the artist</h2>
       <Counter />
+      
       <div className = 'whole'>
         <Character 
           imagePath='/assets/Drake .jpeg' 
@@ -145,19 +114,8 @@ function App() {
         />
          </div>
          
-         
-    
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
          </div>
   )
-}
+}}
+export default App()
+
