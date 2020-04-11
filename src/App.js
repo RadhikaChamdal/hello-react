@@ -4,6 +4,7 @@ import './App.css';
 import Character from './components/Character.js';
 import { SearchResults } from 'semantic-ui-react';
 import Trivia from './components/Trivia'
+import {Router} from '@reach/router'
 
 
 function Counter () {
@@ -23,15 +24,24 @@ function Counter () {
   )  
 }
 
+function pages (){
+  return (
+    <div>
+    <Router>
+      <Trivia page = '/trivia' />
+    </Router>
+  </div>
+  );
+}
 
 function App() {
   return(
-  
-    <div className="whole">
+      <div className="whole">
       <h1>Who Am I?</h1>
       <h2> Take a guess if you want</h2>
       <h2>Hover over the space to reveal the artist</h2>
       <Counter />
+      
       <div className = 'rnb'>
         <Character 
           imagePath='/assets/Drake .jpeg' 
