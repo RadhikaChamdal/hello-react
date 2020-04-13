@@ -2,7 +2,7 @@ import React from "react"
 
 function WelcomePage(){
     return (
-       <div className = 'test'>
+       <div>
            <p>Helloo</p>
        </div>
     )

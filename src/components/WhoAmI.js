@@ -10,7 +10,7 @@ function Counter () {
       <button onClick = {()=>{setCount(count+1)}}>
       Correct!
       </button>
-  
+      <br />
       <button onClick ={()=>{setCount(count-1)}}>
       Incorrect!
       </button>

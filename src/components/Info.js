@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon, Label, Image, Card,Reveal} from 'semantic-ui-react'
+import {Image, Card,Reveal} from 'semantic-ui-react'
 
 function Info(props) {
     return(
