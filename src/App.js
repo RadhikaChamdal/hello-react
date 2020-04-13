@@ -9,17 +9,15 @@ function App(){
   return (
     <div>
     <Router>
+      <WelcomePage path = "/"/>
+      <WhoAmI path = "whoami"/>
       <Trivia path= '/trivia' />
+      
     </Router>
   </div>
   );
 }
 
-
-
-
-
-  
 
 export default App
 
