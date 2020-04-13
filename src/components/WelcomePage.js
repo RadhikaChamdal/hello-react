@@ -1,12 +1,11 @@
 import React from "react"
 
-function Welcome(){
+function WelcomePage(){
     return (
-        <>
-        <h1>Welcome to Radhika's Project</h1>
-        <p>Hi Radhika </p>
-        </>
+       <div className = 'test'>
+           <p>Helloo</p>
+       </div>
     )
 }
 
-export default Welcome
+export default WelcomePage

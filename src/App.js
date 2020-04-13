@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Router} from '@reach/router';
-import Welcome from './components/WelcomePage';
+import WelcomePage from './components/WelcomePage';
 import Cards from './components/WhoAmI';
 import Trivia from './components/Trivia';
 
@@ -10,8 +10,8 @@ function App(){
   return (
     <div>
     <Router>
-      <WelcomePage path = "/"/>
-      <WhoAmI path = "/whoami"/>
+      <WelcomePage path = "/" />
+      <Cards path = "/whoami" />
       <Trivia path= '/trivia' />
       
     </Router>

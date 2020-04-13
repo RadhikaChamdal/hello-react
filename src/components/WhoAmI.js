@@ -1,7 +1,5 @@
 import React from 'react';
-import './App.css';
-import Character from './components/Character.js';
-import { SearchResults } from 'semantic-ui-react';
+import Character from './Character';
 
 function Counter () {
     const[count, setCount] = React.useState(0);
@@ -110,11 +108,6 @@ function Counter () {
 
 
     </div>
-
- 
-  
-  }
-  }
   
 </div>
     )}
