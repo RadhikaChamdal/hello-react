@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Character from './components/Character.js';
 import { SearchResults } from 'semantic-ui-react';
@@ -20,7 +19,7 @@ function Counter () {
     </div>
     )  
   }
-    function Cards()
+    function Cards(){
     return(
     <div className="whole">
     <h1>Who Am I?</h1>
@@ -115,6 +114,8 @@ function Counter () {
  
   
   }
+  }
+  
 </div>
-)
+    )}
 export default Cards

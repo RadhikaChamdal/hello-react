@@ -6,15 +6,12 @@ import WhoAmI from './components/WhoAmI';
 import Trivia from './components/Trivia';
 
 
-
-
-
 function App(){
   return (
     <div>
     <Router>
       <WelcomePage path = "/"/>
-      <WhoAmI path = "whoami"/>
+      <WhoAmI path = "/whoami"/>
       <Trivia path= '/trivia' />
       
     </Router>
