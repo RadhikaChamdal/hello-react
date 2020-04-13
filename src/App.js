@@ -1,6 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Router} from '@reach/router';
+import WelcomePage from './components/WelcomePage';
+import WhoAmI from './components/WhoAmI';
+import Trivia from './components/Trivia';
+
 
 
 
