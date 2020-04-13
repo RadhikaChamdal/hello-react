@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Character from './components/Character.js';
 import { SearchResults } from 'semantic-ui-react';
-import Trivia from './components/Trivia'
-import {Router} from '@reach/router'
+
+
 
 
 function Counter () {
@@ -24,17 +24,7 @@ function Counter () {
   )  
 }
 
-function App(){
-  return (
-    <div>
-    <Router>
-      <Trivia path= '/trivia' />
-    </Router>
-  </div>
-  );
-}
-
-function pages() {
+function App() {
   return(
       <div className="whole">
       <h1>Who Am I?</h1>
@@ -134,3 +124,4 @@ function pages() {
 }
 
 export default App
+
