@@ -1,5 +1,19 @@
-import React from 'react';
+import React from "react";
+import {Link} from "@reach/router";
 
-import Trivia from './components/Trivia.js'
 
+function NavBar(){
+    return(
+        <div>
+            <Link to= "/"> Home </Link>
+            <hr/>
+            <Link to= "whoami"> Who Am I </Link>
+            <hr/>
+            <Link to= "trivia"> Trivia </Link>
 
+                
+        </div>
+    )
+}
+
+export default NavBar
