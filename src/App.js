@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import {Router} from '@reach/router';
-import WelcomePage from './components/WelcomePage';
-import WhoAmI from './components/WhoAmI';
+import Welcome from './components/WelcomePage';
+import Cards from './components/WhoAmI';
 import Trivia from './components/Trivia';
 
 
