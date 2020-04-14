@@ -1,35 +1,21 @@
 .Nav{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    /* box-sizing: border-box; */
+    /* margin: 0;
+    padding: 0; */
     background-color: black;
 }
 
 li{
-    font-family: Helvetica;
+    font-family:'Roboto Mono', monospace;;
     font-size: 16px;
     color:white;
     text-decoration: none;
+    text-align: center;
+    padding : 15px 30px;
+    display: block;
+   
 
 }
 li:hover {
-    color:red;
+    background-color:#85e6a2
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.nav-links {
-    list-style: none;
-}
-.nav-links li{
-    display: inline-block;
-    padding: 0px 20px 
-}
-.nav-links:hover {
-    color:red;
-}
-

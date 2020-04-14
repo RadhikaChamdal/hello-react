@@ -6,7 +6,7 @@ import styles from "./NavBar.module.css";
 function NavBar(){
     return(
         <div className = {styles.Nav}>
-            <ul className = "nav-links">
+            <div className = "nav-links">
             
             <Link to= "/"> <li><b>Home</b> </li> </Link>
             
@@ -17,7 +17,7 @@ function NavBar(){
             <hr/>
             <Link to= "trivia">  <li><b>Trivia</b></li> </Link>
            
-        </ul>
+        </div>
                 
         </div>
     )

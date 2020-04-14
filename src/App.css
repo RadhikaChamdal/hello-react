@@ -19,7 +19,7 @@
 h1 {
   color: white;
   text-align: center;
-  font-family: 'Helvetica';
+  font-family: 'Roboto Mono', monospace;
   font-size: 40px;
 }
   
@@ -28,14 +28,14 @@ h1 {
 h2 {
   color:white;
   text-align: center;
-  font-family: 'Helvetica';
+  font-family: 'Roboto Mono', monospace;
   font-size: 30px;
 
 }
 h3 {
   color:white;
   text-align: left;
-  font-family: 'Helvetica'
+  font-family: 'Roboto Mono', monospace;
  
 }
 .cards-facts{
