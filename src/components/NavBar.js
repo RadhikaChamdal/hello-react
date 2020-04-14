@@ -5,9 +5,11 @@ import {Link} from "@reach/router";
 function NavBar(){
     return(
         <div className = "Nav">
+            <ul className = "nav-links">
+            
             <Link to= "/"> <li> Home </li> </Link>
             
-            <ul>
+            
             <hr/>
             <Link to= "whoami"> <li>Who Am I </li> </Link>
            
