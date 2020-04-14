@@ -8,14 +8,14 @@ function NavBar(){
         <div className = {styles.Nav}>
             <ul className = "nav-links">
             
-            <Link to= "/"> <li> Home </li> </Link>
+            <Link to= "/"> <li><b>Home</b> </li> </Link>
             
             
             <hr/>
-            <Link to= "whoami"> <li>Who Am I </li> </Link>
+            <Link to= "whoami"> <li><b> Who Am I </b> </li> </Link>
            
             <hr/>
-            <Link to= "trivia">  <li>Trivia</li> </Link>
+            <Link to= "trivia">  <li><b>Trivia</b></li> </Link>
            
         </ul>
                 

@@ -12,6 +12,9 @@ li{
     text-decoration: none;
 
 }
+li:hover {
+    color:red;
+}
 header {
     display: flex;
     justify-content: space-between;
