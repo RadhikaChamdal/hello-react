@@ -16,10 +16,6 @@
   font-size: 20px;
 }
 
-.Nav {
-  display: flex;
-  justify-content: space-between;
-}
 h1 {
   color: white;
   text-align: center;
