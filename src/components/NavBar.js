@@ -1,10 +1,11 @@
 import React from "react";
 import {Link} from "@reach/router";
+import styles from "./NavBar.module.css";
 
 
 function NavBar(){
     return(
-        <div className = "Nav">
+        <div className = {styles.Nav}>
             <ul className = "nav-links">
             
             <Link to= "/"> <li> Home </li> </Link>
