@@ -1,5 +1,6 @@
 import React from 'react';
 import Character from './Character';
+import Button from './Button';
 
 function Counter () {
     const[count, setCount] = React.useState(0);
@@ -7,13 +8,9 @@ function Counter () {
     return(
       <div className = "button">
       <p><b>Your Points:</b> {count}</p>
-      <button onClick = {()=>{setCount(count+1)}}>
-      Correct!
-      </button>
-      <br />
-      <button onClick ={()=>{setCount(count-1)}}>
-      Incorrect!
-      </button>
+      <Button content = "Correct" onClick ={()=>{setCount(count+1)}} />
+     
+      <Button content = "Incorrect" onClick ={()=>{setCount(count-1)}} />
     </div>
     )  
   }
