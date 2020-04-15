@@ -88,11 +88,6 @@ h3 {
   height: 350px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -109,6 +104,37 @@ h3 {
   color: #61dafb;
 }
 
-.test{
-  color: black;
+welcome-logo {
+  background: black;
+}
+
+.home{
+  
+    animation: rotation 2s infinite linear;
+
+}
+
+@keyframes logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+ @media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} 
+
+.logo{
+		margin: center;
+		padding: -300px;
+		color: #fff;
+    /* background: black; */
+    position: fixed;
+    top: 40%;
+    left: 45%;
 }

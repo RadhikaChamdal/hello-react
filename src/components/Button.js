@@ -2,7 +2,7 @@ import React from "react";
 
 function Button(props) {
     return(
-        <button style = {{background:"#85e6a2",padding: "8px 15px",
+        <button style = {{background:"#ffb833",padding: "8px 15px",
         textAlign: "center",
         textDecoration: "none",
         display: "inline-block",

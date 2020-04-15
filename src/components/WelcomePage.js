@@ -1,10 +1,12 @@
 import React from "react"
 
+
 function WelcomePage(){
     return (
-       <div>
-           <p>Helloo</p>
-       </div>
+            <div className = "welcome-logo">
+           <img src = "./assets/logo.png" className="logo"></img>
+           </div>
+      
     )
 }
 
