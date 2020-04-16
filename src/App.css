@@ -17,7 +17,7 @@
 }
 
 h1 {
-  color: white;
+  color: black;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
@@ -102,39 +102,4 @@ h3 {
 
 .App-link {
   color: #61dafb;
-}
-
-welcome-logo {
-  background: black;
-}
-
-.home{
-  
-    animation: rotation 2s infinite linear;
-
-}
-
-@keyframes logo-spin {
-  from {
-      transform: rotate(0deg);
-  }
-  to {
-      transform: rotate(360deg);
-  }
-}
-
- @media (prefers-reduced-motion: no-preference) {
-  .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-} 
-
-.logo{
-		margin: center;
-		padding: -300px;
-		color: #fff;
-    /* background: black; */
-    position: fixed;
-    top: 40%;
-    left: 45%;
 }
