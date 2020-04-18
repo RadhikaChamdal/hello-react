@@ -3,6 +3,8 @@ import {Link} from "@reach/router";
 import styles from "./NavBar.module.css";
 
 
+
+
 function NavBar(){
     return(
         <div className = {styles.Nav}>

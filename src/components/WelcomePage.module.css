@@ -1,8 +1,18 @@
-/* welcome-logo {
-    background: black;
-  } */
-  
-  .home{
+body{
+    background-color: black;
+
+}
+
+.WelcomeHeader{
+    font-size: 30px;
+    padding: 330px;
+    font-family:'Roboto Mono', monospace;
+}
+
+.WelcomeHeader:hover{
+    color: #ac96ff;
+}
+.home{
     
       animation: rotation 2s infinite linear;
   
@@ -24,12 +34,10 @@
   } 
   
   .logo{
-          margin: center;
-          padding: -300px;
-          color: #fff;
-      /* background: black; */
-      position: fixed;
-      top: 40%;
-      left: 45%;
+        margin: center;
+        padding: -450px;
+        position: fixed;
+        top: 30%;
+        left: 44%;
   }
   

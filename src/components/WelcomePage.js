@@ -1,12 +1,17 @@
 import React from "react"
+import styles from "./WelcomePage.module.css";
 
 
 function WelcomePage(){
     return (
-            <div className = "welcome-logo">
-            <h1> <b> Welcome to Radhika's personal project </b> </h1>
-           <img src = "./assets/logo.png" alt ="" className="logo"></img>
-           </div>
+           
+            <div className = {styles.WelcomePage}>
+           <img src = "./assets/logo.png" alt ="" className={styles.logo}></img>
+           <h1 className = {styles.WelcomeHeader}> Welcome to Radhika's personal project </h1>
+      
+         </div>
+
+         
            
       
     )
